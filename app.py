@@ -258,7 +258,7 @@ def generate_response(model, prompt, temperature=0.7):
         "temperature": temperature,
         "top_k": 40,
         "top_p": 0.95,
-        "max_output_tokens": 2000,
+        "max_output_tokens": 4000,
     }
    
     try:
