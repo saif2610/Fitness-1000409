@@ -460,9 +460,6 @@ def main():
     </div>
     """, unsafe_allow_html=True)
    
-    # Success message with animation
-    st.success("✅ Connected to Gemini 1.5 Pro successfully! All AI features ready!")
-   
     # Create tabs for different sections
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["🏋️ Training Hub", "📊 Analytics Dashboard", "🥗 Nutrition & Recovery", "🎯 Performance Tracking", "🏆 Achievements"])
    
